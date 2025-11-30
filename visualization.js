@@ -45,9 +45,9 @@ function processData(data) {
 // VISUALIZATION 1: ETHNICITY ACCESS EXPLORER
 // ========================================
 function initEthnicityAccessExplorer(d3, data) {
-  const width = 900;
-  const height = 500;
-  const margin = { top: 40, right: 260, bottom: 60, left: 70 };
+  const width = 1000;
+  const height = 600;
+  const margin = { top: 40, right: 300, bottom: 60, left: 70 };
 
   const englishOrder = ["Very well", "Well", "Not well", "Not at all"];
 

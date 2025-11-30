@@ -89,6 +89,13 @@ footer p {
 /* ========================================
    VISUALIZATION CONTAINERS
    ======================================== */
+#ethnicity-explorer,
+#cluster-explorer,
+#care-funnel {
+  overflow-x: auto;
+  overflow-y: visible;
+}
+
 #ethnicity-explorer svg,
 #cluster-explorer svg,
 #care-funnel svg {
