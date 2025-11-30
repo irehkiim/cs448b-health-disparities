@@ -34,7 +34,7 @@ Use the dropdown to select different ethnic groups and the slider to reveal each
 
 ## Live Demo
 
-🌐 **View the live visualization**: [Add your GitHub Pages URL here after deployment]
+🌐 **View the live visualization**: https://irehkiim.github.io/cs448b-health-disparities/
 
 ## Data Source
 
@@ -55,8 +55,8 @@ To run this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
-   cd YOUR-REPO-NAME
+   git clone https://github.com/irehkiim/cs448b-health-disparities.git
+   cd cs448b-health-disparities
    ```
 
 2. Start a local web server (required for loading CSV data):
