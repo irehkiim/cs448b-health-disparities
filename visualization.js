@@ -145,7 +145,7 @@ function initEthnicityAccessExplorer(d3, data) {
         .attr("fill", "currentColor")
         .attr("text-anchor", "middle")
         .style("font-weight", "bold")
-        .text("Share with limited English ("Not well" / "Not at all")")
+        .text('Share with limited English ("Not well" / "Not at all")')
     );
 
   svg.append("g")
