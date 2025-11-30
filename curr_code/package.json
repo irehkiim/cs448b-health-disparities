@@ -1,0 +1,14 @@
+{
+  "name": "429a01807ffd2d78",
+  "main": "429a01807ffd2d78@89.js",
+  "version": "89.0.0",
+  "homepage": "https://observablehq.com/d/429a01807ffd2d78",
+  "author": {
+    "name": "Stanford CS 448B",
+    "url": "https://observablehq.com/@stanford-cs-448b"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}

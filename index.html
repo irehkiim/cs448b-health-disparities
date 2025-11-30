@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Disparities Across Asian Ethnic Groups</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hidden Gaps in Care Across Asian Ethnic Groups</h1>
+        <p>Interactive visualizations exploring health disparities, language barriers, and healthcare access across Asian ethnic groups.</p>
+    </header>
+
+    <main>
+        <section id="ethnicity-explorer">
+            <h2>Ethnicity Access Explorer</h2>
+            <p>Each circle represents an ethnic group. Explore the relationship between English proficiency, unmet health needs, and self-rated health.</p>
+        </section>
+
+        <section id="cluster-explorer">
+            <h2>Cluster Explorer</h2>
+            <p>Discover patterns in stress levels and health outcomes across different groups.</p>
+        </section>
+
+        <section id="care-funnel">
+            <h2>Care Funnel</h2>
+            <p>Follow the healthcare access journey from language barriers to health outcomes.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Data source: Asian American Quality of Life (AAQoL) Survey</p>
+        <p>Visualization created with D3.js v7</p>
+    </footer>
+
+    <!-- D3.js and d3-sankey from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12"></script>
+
+    <!-- Our visualization code -->
+    <script src="visualization.js"></script>
+</body>
+</html>
